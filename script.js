@@ -1,6 +1,7 @@
 let newOrderNumber = document.querySelector('.new_order_numb');
 newOrderNumber.value = 1;
 
+
 let clearButton = document.querySelector('.clear_button');
 clearButton.addEventListener('click', () => {
 	let answer = confirm('Очистить ВСЮ историю?');
