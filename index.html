@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CoUrIeR CaLcUlAtE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="app-wrapper">
+		<h1 class="welcome_header">AP_SOLUTION</h1>
+		<section class="new_order_section">
+			<h3>Новый заказ №<input class="new_order_numb" type="text" value="312"></h3>
+			<input type="text" name="" class="data_phone" placeholder="Телефон...">
+			<div class="data_input_group">
+				<span class="street_input_label">Улица</span>
+				<input type="text" name="address_info" class="address_info" placeholder="ул. Программистов">
+			</div>
+			<div class="small_input_groups">
+				<div class="data_input_group_small">
+					<span class="data_input_label">Дом</span>
+					<input type="text" class="address_detail_info" placeholder="№" data-name="house">
+				</div>
+				<div class="data_input_group_small">
+					<span class="data_input_label">подьезд</span>
+					<input type="text" class="address_detail_info" placeholder="№" data-name="entrance">
+				</div>
+				<div class="data_input_group_small">
+					<span class="data_input_label">этаж</span>
+					<input type="text" class="address_detail_info" placeholder="№" data-name="floor">
+				</div>
+				<div class="data_input_group_small">
+					<span class="data_input_label">квартира</span>
+					<input type="text" class="address_detail_info" placeholder="№" data-name="flat">
+				</div>
+			</div>
+			<div class="small_input_groups">
+				<div class="data_input_group_small">
+					<span class="data_input_label">Способ</span>
+					<select class="payment_methods address_detail_info" data-name="method">
+						<option class="">Наличные</option>
+						<option>Картой</option>
+						<option>На сайте</option>
+					</select>
+				</div>
+				<div class="data_input_group_small">
+					<span class="data_input_label">Сумма</span>
+					<input type="text" class="address_detail_info" placeholder="$" data-name="sum">
+				</div>
+				<div class="data_input_group_small">
+					<span class="data_input_label">Получено</span>
+					<input type="text" class="address_detail_info" placeholder="$" data-name="received">
+				</div>
+				<div class="data_input_group_small">
+					<span class="data_input_label">Чаевые</span>
+					<input type="text" class="address_detail_info" placeholder="$" data-name="tip">
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+
+	<script src="script.js"></script>
+</body>
+</html>
